@@ -1,0 +1,84 @@
+body {
+    margin: 5px;
+    padding: 5px;
+    max-width: 100%;
+    margin: auto;
+}
+
+ 
+.nav-bar {
+    display: inline-flex;
+    background-color: darkgrey;
+    color: white;
+    width: 100%;
+    height: 6%;
+    position: fixed;
+    margin-top: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profs-wanderlust-heading {
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+.teacher-images-section {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.teacher-image-collage {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.outer-overlay {
+    height: 430px;
+    width: 200px;
+    position: relative;
+    cursor: pointer;
+}
+
+.outer-overlay:hover .inner-overlay {
+    width: 200px;
+}
+
+.individual-teacher-image {
+    height: 430px;
+    width: 200px;
+}
+   
+.inner-overlay {
+    height: 430px;
+    width: 0px;
+    background: rgba(127, 255, 212, 0.726);
+    position: absolute;
+    top: 0;
+    /* display: flexbox; */
+    justify-content: center;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.inner-overlay h1{
+    color: rgb(80, 78, 78);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-overlay p{
+    color: rgb(88, 87, 87);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
